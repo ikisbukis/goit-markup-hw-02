@@ -3,7 +3,7 @@
     color: #434455;
     font-size:16px;
     line-height:1.5;
-    letter-spacing:2%;
+    letter-spacing:0.02em;
 }
 
 .accent{
@@ -20,11 +20,12 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.125em; 
 }
 
 .page-nav .link{
     color:#2E2F42;
-    font-weight: 600;
     text-decoration: none;
 }
 
@@ -38,7 +39,7 @@
     font-weight:500;
     font-size:16px;
     line-height:1.5;
-    letter-spacing:4%;
+    letter-spacing:0.04em;
     background-color: #4d5ae5;
     color:white;
     cursor: pointer;
@@ -48,8 +49,8 @@
     color:white;
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 1.07;
+    letter-spacing:0.02em;
+    line-height:1.07;
     text-align: center;
 }
 
@@ -60,20 +61,26 @@
 .section-title{
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing:0.02em;
     text-align: center;
 }
 
 .section-title-features{
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing:0.02em;
 }
 
-.text-title{
-    font-weight: 600;
+.p-title{
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing:0.02em;
+}
+
+p{
+    font-size:12px;
+    line-height:1.2; 
+    letter-spacing:0.04em;
 }
 
 .team-list > li{
@@ -88,7 +95,7 @@
     background-color: #F4F4Fd;
 }
 
-.section-team .text-title,
+.section-team .p-title,
 .section-team p{
     text-align: center;
 }
@@ -100,7 +107,6 @@
 
 .page-footer a{
     color:#F4F4Fd;
-
 }
 
 .page-nav,
@@ -112,6 +118,7 @@
 }
 
 .page-nav .link:hover,
+.page-nav .link:focus,
 .address-list .address-link:hover,
 .address-list .address-link:focus{
     color:#404BBF;
@@ -119,4 +126,11 @@
 
 .page-nav .link:active{
     text-decoration:underline;
+}
+
+.address-link .link,
+.page-nav .link{
+    font-size:12px;
+    line-height:1.33;
+    letter-spacing:0.04em;
 }
