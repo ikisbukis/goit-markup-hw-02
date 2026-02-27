@@ -1,6 +1,7 @@
 .page-body{
     font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: white;
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
@@ -15,24 +16,35 @@
     color:#2E2F42;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .home-link{
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 0.125em; 
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em; 
 }
 
 .page-nav .link{
     color:#2E2F42;
     text-decoration: none;
+    font-weight:500;
+    font-size: 16px;
 }
 
 .address-list .address-link{
     color:#434455;
     text-decoration: none;
     font-style: normal;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .order-button{
@@ -75,12 +87,14 @@
     font-weight: 500;
     font-size: 20px;
     letter-spacing:0.02em;
+    line-height: 1.2;
 }
 
 p{
-    font-size:12px;
-    line-height:1.2; 
-    letter-spacing:0.04em;
+    font-weight:400;
+    font-size:16px;
+    line-height:1.5; 
+    letter-spacing:0.02em;
 }
 
 .team-list > li{
@@ -107,14 +121,6 @@ p{
 
 .page-footer a{
     color:#F4F4Fd;
-}
-
-.page-nav,
-.address-list,
-.features-list,
-.team-list,
-.portfolio-list{
-    list-style-type:none;
 }
 
 .page-nav .link:hover,
